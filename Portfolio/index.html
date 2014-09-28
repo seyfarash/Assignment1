@@ -10,12 +10,11 @@
     <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>  
   </head>
   <body>
-
       <div class="sticky" id="topbar">
           <nav class="top-bar" data-topbar role="navigation" data-options="scrolltop: false;">
               <ul class="title-area">
                   <li class="name">
-                      <h1><a href="#">Farshad Ash</a></h1>
+                      <h1><a href="#top" class="smoothScroll">Farshad Ash</a></h1>
                   </li>
                   <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
                   <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -35,24 +34,19 @@
           </nav>
       </div>
 
-      <section class="title-area text-center large-12" id="home">
-          <br />
-          <h1>Welcome to my site!</h1>
-          <strong class="show-for-large-up">Welcome Pc user!</strong>
-          <strong class="show-for-medium-only">Welcome tablet user!</strong>
-          <strong class="show-for-small-only">Welcome mobile user!</strong>
-          <br />
-              <img src="img/logo.jpg" />
-
-              <p class="large-12 columns text-center">
-                  <br />
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat ligula ligula. Mauris elementum aliquet odio vel auctor. Vestibulum eget lobortis turpis.
-                  Duis eu arcu eu quam porta malesuada. Aenean accumsan, felis eu ultrices elementum, sem diam mollis eros, id viverra libero nibh eget nibh. Nam blandit elit ut ex dignissim condimentum.
-                  Etiam finibus volutpat urna, vel hendrerit libero ultrices nec. Sed eget faucibus tellus.
-                  <br />
-                  <br />
+      <div id="top" class="text-center large-12">
+          <img src="img/logo.jpg" />
+      </div>
+      
+      <section class="title-area text-center large-12" id="home">            
+              <p class="large-6 large-offset-3 columns text-center">
+                  Welcome to my online portfolio! The objective of this is to try and showcase all of my wonderful creations that I have made over the years as a Computer Sciences and 
+                  Computer Programming Analyst student. The reason that I chose to become a computer sciences student is mainly due to the fact that I grew up around people who worked in the computer field 
+                  my entire life. I hope to someday find a career path in a field of computer sciences onme day (as most of us dream, somewhere in game design hopefully !).
+                  
               </p>
-
+          <br />
+          <br />
           <ul class="example-orbit" data-orbit>
               <li>
                   <img src="img/1.jpg" alt="slide 1" />
@@ -174,8 +168,7 @@
           <script src="js/foundation.min.js"></script>
           <script src="js/smoothscroll.js"></script>
           <script>
-              $(document).foundation();
+              $(document).foundation();              
           </script>
-
 </body>
 </html>

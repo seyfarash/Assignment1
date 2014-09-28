@@ -6,11 +6,13 @@
     font-family: 'Oswald', sans-serif;
 }
 
+#top{
+    padding-top:50px;
+}
 
 #home{
     padding:50px;
     margin-bottom:50px;
-    margin-top:20px;
 }
 #about{
     padding:50px;     
@@ -30,7 +32,4 @@
 }
 #footer{
     padding-bottom:700px;
-}
-.active {
-    background-color:red;
 }
