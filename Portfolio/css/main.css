@@ -1,25 +1,36 @@
 ﻿body{
     padding-bottom:20%;
+    font-family: 'Oswald', sans-serif;
+}
+#topbar{
+    font-family: 'Oswald', sans-serif;
 }
 
+
 #home{
-    padding-top:50px;
+    padding:50px;
+    margin-bottom:50px;
+    margin-top:20px;
 }
 #about{
-    padding-top:50px;
-     margin-top:15%;
+    padding:50px;     
 }
 
 #projects{
-    padding-top:50px;
-     margin-top:15%;
+    padding:50px;
 }
 #services{
-    padding-top:50px;
-     margin-top:15%;
+    padding:50px;
+}
+#github{
+    padding:50px;
 }
 #contact{
-    padding-top:50px;
-     margin-top:15%;
+    padding:50px;
 }
-
+#footer{
+    padding-bottom:700px;
+}
+.active {
+    background-color:red;
+}
