@@ -1,22 +1,25 @@
-﻿#home{
-    height:2000px;
+﻿body{
+    padding-bottom:20%;
+}
+
+#home{
     padding-top:50px;
 }
 #about{
-    height:inherit;
     padding-top:50px;
+     margin-top:15%;
 }
 
 #projects{
-    height: 1500px;
     padding-top:50px;
+     margin-top:15%;
 }
 #services{
-    height: 1500px;
     padding-top:50px;
+     margin-top:15%;
 }
 #contact{
-    height: 1500px;
     padding-top:50px;
+     margin-top:15%;
 }
 
