@@ -1,14 +1,21 @@
 ﻿<!doctype html>
+<!-- @author Farshad Ash
+    200263939
+    Sept.2014
+    -->
 <html class="no-js" lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Welcome</title>
+
+    <!-- CSS and external style linking-->
     <link rel="stylesheet" href="css/foundation.css" />
     <link href="css/main.css" rel="stylesheet" />
-    <script src="js/vendor/modernizr.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
 
+    <!-- JS and Jquery file linking-->
+    <script src="js/vendor/modernizr.js"></script>
     <script type="text/javascript">var switchTo5x = true;</script>
     <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
     <script type="text/javascript">stLight.options({ publisher: "fcbc3a88-2802-4b82-8617-bda2d87d901c", doNotHash: true, doNotCopy: true, hashAddressBar: false });</script>
@@ -17,6 +24,7 @@
     <!-- Start of Top Navigation Bar-->
     <div class="sticky" id="topbar">
         <nav class="top-bar" data-topbar role="navigation" data-options="scrolltop: false;">
+            <!-- Set scrolltop to false to prevent page scrolling to top on menu click-->
             <ul class="title-area">
                 <li class="name">
                     <h1><a href="#top" class="smoothScroll">Farshad Ash</a></h1>
@@ -26,7 +34,7 @@
             </ul>
 
             <section class="top-bar-section">
-                <!-- Right Nav Section -->
+                <!-- Right Nav Section, adding smoothScroll class for scroll animation on page from smoothScroll.js -->
                 <ul class="right">
                     <li><a href="#home" class="smoothScroll">Home</a></li>
                     <li><a href="#about" class="smoothScroll">About Me</a></li>
@@ -172,7 +180,7 @@
     <div class="row">
         <section id="contact" class="large-12 columns text-center">
             <h3>Contact</h3>
-
+            <!-- Contact Information-->
             <h3 class="subheader">Info</h3>
             <p>
                 Phone: (705)-795-5491
@@ -184,7 +192,7 @@
             </p>
             <br />
             <br />
-
+            <!-- Begin contant form setup, linking to external php page with a redirect-->
             <form id="contact_form" action="send.php" method="POST" enctype="multipart/form-data">
                 <div class="row">
                     <label for="name">Your name:</label><br />
@@ -202,13 +210,14 @@
             </form>
         </section>
     </div>
-
     <!-- Page Break-->
     <hr />
 
     <!-- Footer Section-->
     <div id="footer" class="text-center">
         <footer>&copy Farshad Ash. 2014</footer>
+
+        <!-- Social media buttons-->
         <a href="https://twitter.com/farshadash" class="twitter-follow-button" data-show-count="false" data-size="large">
             <img src="img/t1.png" height="100" width="100" />
         </a>
@@ -217,16 +226,16 @@
             <img src="img/f1.png" height="100" width="100" />
         </a>
         <br />
+    </div>
 
 
 
-
-        <!-- Javascript imports and script initializers-->
-        <script src="js/vendor/jquery.js"></script>
-        <script src="js/foundation.min.js"></script>
-        <script src="js/smoothscroll.js"></script>
-        <script>
-            $(document).foundation();
-        </script>
+    <!-- Javascript script initializers-->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
 </body>
 </html>
