@@ -20,6 +20,8 @@ $message = $_POST['message'];
 //submit a message to the email that was entered
 mail($email, $name, $message, 'From:200263939@student.georgianc.on.ca');
 
+header("Location: http://webdesign4.georgianc.on.ca/~200263939/comp2068/Assignment1/Portfolio/index#contact");
+
 
 ?>
 
