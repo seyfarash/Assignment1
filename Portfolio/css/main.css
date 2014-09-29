@@ -17,6 +17,9 @@
 #about{
     padding:50px;     
 }
+#abouttext{
+    padding-top:20px;
+}
 
 #projects{
     padding:50px;
@@ -33,3 +36,4 @@
 #footer{
     padding-bottom:700px;
 }
+
